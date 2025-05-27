@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('注音小學堂選擇頁面.png'); /* 替換為圖片的實際檔名 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+button {
+    position: absolute;
+    width: 240px; 
+    height: 80px; 
+    background-color: #a4ca62;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 32px; /* 調整字體大小 */
+    color: white;
+    box-shadow: 0 4px 6px #6eb15c, 0 1px 3px #6eb15c;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #56ad2a; /* 按鈕的 hover 效果 */
+}
+
+/* 四個按鈕的定位 */
+button.btn1 {
+    top: calc(30% - 20px);
+    left: calc(10% + 110px);
+}
+
+button.btn2 {
+    top: calc(30% + 100px + 10px - 20px);
+    left: calc(10% + 110px);
+}
+
+button.btn3 {
+    top: calc(30% - 20px);
+    left: calc(10% + 300px + 10px + 110px);
+}
+
+button.btn4 {
+    top: calc(30% + 100px + 10px - 20px);
+    left: calc(10% + 300px + 10px + 110px);
+}
+
+button.btn5 {
+    top: calc(30% + 200px + 20px - 20px);
+    left: calc(10% + 110px);
+}
